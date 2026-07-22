@@ -1,3 +1,4 @@
-This project demonstrates a simple website with a navigation bar created using HTML. 
+Day 1: This project demonstrates a simple website with a navigation bar created using HTML. 
 The navigation bar contains three links: Home, Contact, and Form, implemented with the `<a>`, `<nav>`, `<form>`, `<h1>` tag and `href` attribute. Each page includes the same navigation menu, allowing users to move easily between different sections of the website.
 
+day 2: Added more personalised option using `<select>`- to select the options from dropdown menu, `<textarea>`, `<br>`.
