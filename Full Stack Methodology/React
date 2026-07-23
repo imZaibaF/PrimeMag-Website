@@ -1,1 +1,31 @@
+Components: Reusable building blocks in the web page, they must return JSX Format. there are 2 types of components:
+1. Fucntional Components
+2. Class Components
 
+-1. Functional Components: The format which accepts data and return JSX.
+
+code: 
+
+function WelcomeMessage(props) {
+  return <h1>Hello React.</h1>;
+}
+
+2. Class Components: It requires render() method (lifecycle method) to wrap ad return statement.
+
+code: 
+
+
+class Greeting extends Component {
+  render() {
+    // Reading from props and state, (prop- it carries the data)
+    const name = this.props.name; 
+
+    // Returning JSX elements
+    return (
+      <div>
+        <h1>Hello, {name}!</h1>
+        <p>Welcome back to the application.</p>
+      </div>
+    );
+  }
+}
